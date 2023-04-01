@@ -1,8 +1,19 @@
 h1 {
   font-size: 6rem;
 }
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #380202;
+}
+body{
+  background-color:  #6d53e2;
+}
 p {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 1rem;}
 
 .nav {
@@ -43,4 +54,10 @@ p {
       height: 100vh;
       background-color: #6d53e2;
       background-image: linear-gradient(62deg, #aa9dda 0%, #c39bec 100%);
+    }
+
+    .projects-section {
+      text-align: center;
+      padding: 10rem 2rem;
+      background: var(--main-blue);
     }
